@@ -1,6 +1,6 @@
 ﻿  Lab1.cpp
-C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\TS\ParallProg\Lab1\Lab1\Lab1.cpp(9,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\TS\ParallProg\Lab1\Lab1\Lab1.cpp(10,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\TS\ParallProg\Lab1\Lab1\Lab1.cpp(11,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\TS\ParallProg\Lab1\Lab1\Lab1.cpp(12,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  Lab1.vcxproj -> C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\TS\ParallProg\Lab1\x64\Debug\Lab1.exe
+C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\Uvarov-Nikita-6313-100503D-Lab1\ParallProg\Lab1\Lab1\Lab1.cpp(66,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\Uvarov-Nikita-6313-100503D-Lab1\ParallProg\Lab1\Lab1\Lab1.cpp(67,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\Uvarov-Nikita-6313-100503D-Lab1\ParallProg\Lab1\Lab1\Lab1.cpp(68,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\Uvarov-Nikita-6313-100503D-Lab1\ParallProg\Lab1\Lab1\Lab1.cpp(69,34): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Lab1.vcxproj -> C:\Users\esh20\OneDrive\Рабочий стол\HTML+MATH\Uvarov-Nikita-6313-100503D-Lab1\ParallProg\Lab1\x64\Debug\Lab1.exe
