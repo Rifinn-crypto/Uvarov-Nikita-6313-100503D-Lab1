@@ -64,9 +64,9 @@ void writeMatrix(const std::vector<std::vector<int>>& matrix, const std::string&
 // Функция для перемножения двух матриц
 std::vector<std::vector<int>> multiplyMatrices(const std::vector<std::vector<int>>& matrix1, const std::vector<std::vector<int>>& matrix2) {
     int rowsA = matrix1.size();
-    int colsA = matrix2[0].size();
-    int rowsB = matrix1.size();
-    int colsB = matrix2[0].size();
+    int colsA = matrix1[0].size(); // Количество столбцов первой матрицы
+    int rowsB = matrix2.size(); // Количество строк второй матрицы
+    int colsB = matrix2[0].size(); // Количество столбцов второй матрицы
 
     if (colsA != rowsB) {
         throw std::runtime_error("Incorrect matrix sizes for multiplication.");
@@ -76,7 +76,7 @@ std::vector<std::vector<int>> multiplyMatrices(const std::vector<std::vector<int
 
     for (int i = 0; i < rowsA; ++i) {
         for (int j = 0; j < colsB; ++j) {
-            for (int k = 0; k < rowsB; ++k) {
+            for (int k = 0; k < colsA; ++k) { // Изменили на colsA для правильного умножения
                 result[i][j] += matrix1[i][k] * matrix2[k][j];
             }
         }
@@ -84,6 +84,7 @@ std::vector<std::vector<int>> multiplyMatrices(const std::vector<std::vector<int
 
     return result;
 }
+
 
 int main() {
     int rows1 = 2; // количество строк первой матрицы
